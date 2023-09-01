@@ -1,4 +1,5 @@
 "use client";
+import Link from '@/node_modules/next/link';
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles';
@@ -25,6 +26,15 @@ function Hero() {
             delaySpeed={2000}
             /></span></h1>
             <div>
+                <Link href="#about">
+                    <button className="heroButton">About</button>
+                </Link>
+                <Link href="#skills">
+                    <button className="heroButton">Skills</button>
+                </Link>
+                <Link href="#projects">
+                    <button className="heroButton">Projects</button>
+                </Link>
             </div>
     </div> 
   )
