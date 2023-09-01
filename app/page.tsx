@@ -1,3 +1,4 @@
+"use client";
 import Image from 'next/image';
 import Head from "next/head";
 import Header from '@/components/Header';
@@ -40,6 +41,7 @@ export default function Home() {
       <section id ='contact' className='snap-start'>
         <Contact />
       </section>
+      {/* home button */}
       <Link href='#hero'>
        <footer className='sticky bottom-5 w-full cursor-pointer'>
         <div className='flex items-center justify-center'>
