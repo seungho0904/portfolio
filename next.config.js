@@ -1,17 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {  
-  reactStrictMode: true,
+/**
+ * @type {import('next').NextConfig}
+ **/
 
-  basePath: "/portfolio",
-
-  trailingSlash: true, 
+ const nextConfig = {
+  output: 'export',
+  basePath: '/portfolio',
   images: {
     unoptimized: true,
-  },
-  output: {
-    // Set the export target to static
-    // This ensures that the app is exported as static HTML files
-    target: 'static',
   },
 };
 
