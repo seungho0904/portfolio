@@ -11,4 +11,5 @@ module.exports = {
     // This ensures that the app is exported as static HTML files
     target: 'static',
     // Other Next.js configuration options...
+  }
   }; 
