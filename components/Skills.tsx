@@ -64,7 +64,7 @@ function Skills() {
         Skills
       </h3>
       <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-400 text-small'>Hover over a skill for current proficiency</h3>
-      <div className='grid grid-cols-4 gap-5'>
+      <div className='grid grid-cols-4 gap-3'>
         {skills?.slice(0, 8).map((skill, index) => (
           <SkillComponent
             key={index} // Use a unique key
