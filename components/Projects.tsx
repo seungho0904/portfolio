@@ -6,10 +6,7 @@ type Project = {
   title: string;
   summary: string;
   url: string;
-};
-type ProjectsProps = {
-  projects: Project[];
-};
+}; 
 const projectData: Project[]  = [
   {
     title: 'Vertical Landing Civilization Aircraft',
@@ -29,8 +26,7 @@ const projectData: Project[]  = [
 ];
  
 
-function Projects({ projects }: ProjectsProps) {
-  console.log('Projects prop:', projects);
+function Projects() { 
   return (
     <motion.div
       initial={{ opacity: 0 }}
