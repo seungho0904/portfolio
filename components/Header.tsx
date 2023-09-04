@@ -1,8 +1,8 @@
-"use client";
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
 import { motion } from "framer-motion";
 import Link from '@/node_modules/next/link';
+import { EnvelopeIcon } from '@heroicons/react/24/outline';
 
 function Header() {
   return (
@@ -51,13 +51,9 @@ function Header() {
          transition={{
             duration:1.5
          }}
-        className='flex flex-row items-center text-gray-300 '>
-            <SocialIcon 
-            className ="cursor-pointer"
-            network ="email"
-            fgColor = "gray"
-            bgColor = "transparent"
-            />
+        className='flex flex-row items-center text-gray-300 '> 
+
+            <EnvelopeIcon className='px-2 h-10 w-10 text-gray-500 hover:text-white'/>
             <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Contact Me</p>
         </motion.div></Link>
     </header>

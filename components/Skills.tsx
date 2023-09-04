@@ -1,5 +1,3 @@
-// Skills.tsx
-"use client";
 import React from 'react';
 import { motion } from "framer-motion";
 import SkillComponent from './Skill'; // Renamed the component to SkillComponent
