@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {  
+  reactStrictMode: true,
+
+ // Add basePath
+  basePath: '/github-pages',
+
   trailingSlash: true, 
   images: {
     domains: ['media.licdn.com'], // Add 'media.licdn.com' to the list of domains
