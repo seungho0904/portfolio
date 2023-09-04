@@ -7,7 +7,10 @@ type Project = {
   summary: string;
   url: string;
 };
-const projectData = [
+type ProjectsProps = {
+  projects: Project[];
+};
+const projectData: Project[]  = [
   {
     title: 'Vertical Landing Civilization Aircraft',
     summary: 'In this project, advanced embedded flight systems were implemented, incorporating features like transformation and wireless control using Arduino technology. Extensive firmware testing was conducted on a brushless DC motor to optimize its performance. The project also contributed to the development of aircraft landing methods, enhancing speed and space utilization. This aircraft demonstrated the ability to operate each motor, transform its swivel nozzle formation, and execute vertical landings.',
@@ -26,7 +29,7 @@ const projectData = [
 ];
  
 
-function Projects({ projects }: projectData) {
+function Projects({ projects }: ProjectsProps) {
   console.log('Projects prop:', projects);
   return (
     <motion.div
