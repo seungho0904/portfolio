@@ -10,7 +10,7 @@ function Hero() {
             <BackgroundCircles />
             <Image 
             className='relative rounded-full h-32 w-32 mx-auto object-cover'
-            src="https://media.licdn.com/dms/image/C5603AQGFo7X9mMpQIQ/profile-displayphoto-shrink_800_800/0/1610503878656?e=1698883200&v=beta&t=5gvgy461aWjOunPhU1GlNx2RRhJVgq6HVotgdxm8w4I" 
+            src="https://media.licdn.com/dms/image/C5603AQGFo7X9mMpQIQ/profile-displayphoto-shrink_800_800/0/1610503879037?e=1710374400&v=beta&t=Icm1zObzmCrST8DMOhFrlo0ecD3NIk8R4mBi9keUkjw" 
             alt="" 
             width={800} 
             height={800} />
